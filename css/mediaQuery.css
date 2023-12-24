@@ -1,0 +1,128 @@
+/* BELOW 1184px */
+@media (max-width: 74em) {
+  .hero-heading {
+    font-size: 3.6rem;
+  }
+
+  .cta-box {
+    padding: 4.8rem 4.8rem;
+  }
+  .cta-heading {
+    font-size: 2.4rem;
+  }
+}
+
+/* BELOW 1008px */
+@media (max-width: 63em) {
+  html {
+    font-size: 55%;
+  }
+
+  .feature-heading {
+    font-size: 2.4rem;
+  }
+  .footer-container {
+    column-gap: 4.8rem;
+  }
+  .contact-element {
+    gap: 1.2rem;
+  }
+
+  .footer {
+    padding: 20rem 3rem 3rem 3rem;
+  }
+}
+
+/* BELOW 816px */
+@media (max-width: 51em) {
+  html {
+    font-size: 50%;
+  }
+  .cta-btn {
+    padding: 1.6rem 2.4rem;
+  }
+
+  .footer-container {
+    font-size: 1.4rem;
+  }
+}
+
+/* BELOW 704px */
+@media (max-width: 44em) {
+  body {
+    font-size: 1.6rem;
+  }
+
+  .header {
+    padding: 3.2rem 1.6rem;
+  }
+
+  .nav-logo {
+    max-width: 15rem;
+  }
+
+  .nav-link {
+    padding: 0.8rem 2.4rem;
+  }
+
+  .section-hero {
+    grid-template-columns: 1fr;
+    text-align: center;
+    gap: 10rem;
+    margin-bottom: 8rem;
+    padding: 15rem 8rem 8rem 8rem;
+    background-image: url(../images/bg-hero-mobile.svg);
+  }
+  .hero-text-box {
+    padding-right: 0;
+  }
+
+  .cta-btn {
+    width: 80%;
+  }
+
+  .section-features {
+    align-items: center;
+    margin-bottom: 4.8rem;
+  }
+
+  .feature-box {
+    grid-template-columns: 1fr;
+    max-width: 35rem;
+    text-align: center;
+  }
+  .feature-img-box {
+    grid-row: 1/2;
+  }
+  .feature-illustration {
+    max-width: 100%;
+  }
+  .cta-box {
+    max-width: 100%;
+    margin: 0;
+  }
+  .cta-heading {
+    font-size: 2rem;
+  }
+
+  .footer-container {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+
+  .footer-logo {
+    margin-bottom: 0;
+  }
+
+  .copyright {
+    position: static;
+  }
+
+  .socail-col {
+    align-items: center;
+  }
+
+  .location {
+    max-width: 80%;
+  }
+}

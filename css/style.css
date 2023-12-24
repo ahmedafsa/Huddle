@@ -1,0 +1,269 @@
+/******************/
+/* GENERAL STYILING */
+/******************/
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline: none;
+  color: hsl(192, 100%, 9%);
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 1;
+}
+
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+.btn {
+  border-radius: 10rem;
+  font-weight: 700;
+  transition: all 0.3s;
+}
+
+.cta-btn {
+  display: inline-block;
+  padding: 1.6rem 4.8rem;
+  background-color: hsl(322, 100%, 66%);
+  color: #fff;
+}
+
+.cta-btn:hover {
+  background-color: #cc4299;
+}
+
+.hero-heading,
+.feature-heading,
+.cta-heading {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+}
+
+/*******************/
+/*  HEADER STYILNG */
+/******************/
+.header {
+  background-color: transparent;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 4.8rem 8rem;
+}
+
+.nav-logo {
+  max-width: 24rem;
+}
+
+.nav-link {
+  padding: 1.2rem 4.8rem;
+  background: #fff;
+  box-shadow: 0rem 0rem 1rem 0.1rem hsla(208, 11%, 55%, 0.3);
+}
+.nav-link:hover {
+  background-color: #f1f3f5;
+}
+
+/*******************/
+/* HERO SECTION STYILNG */
+/******************/
+
+.section-hero {
+  padding: 20rem 8rem 8rem 8rem;
+  background-color: hsl(193, 100%, 96%);
+  background-image: url(../images/bg-hero-desktop.svg);
+  background-repeat: no-repeat;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  margin-bottom: 12.8rem;
+}
+
+.hero-img {
+  width: 100%;
+}
+
+.hero-text-box {
+  padding-right: 10rem;
+}
+
+.hero-heading {
+  font-size: 5.2rem;
+  line-height: 1.2;
+  letter-spacing: -2px;
+  margin-bottom: 3.2rem;
+}
+
+.hero-paragraph {
+  line-height: 1.5;
+  margin-bottom: 6.4rem;
+  color: hsl(208, 11%, 55%);
+}
+
+/*******************/
+/*  FEATURES SECTION STYILNG */
+/******************/
+.section-features {
+  display: flex;
+  flex-direction: column;
+  gap: 4.8rem;
+  margin-bottom: 8rem;
+}
+
+.feature-box {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+  padding: 4.8rem 6.4rem;
+  margin: 0 5rem;
+  gap: 10rem;
+  border-radius: 1.2rem;
+  box-shadow: 0rem 0rem 1rem 0.1rem hsla(208, 11%, 55%, 0.3);
+}
+
+.feature-img-box {
+  text-align: center;
+}
+
+.feature-illustration {
+  max-width: 75%;
+}
+
+.feature-heading {
+  font-size: 3rem;
+  margin-bottom: 2.4rem;
+}
+
+.feature-details {
+  color: hsl(208, 11%, 55%);
+  line-height: 1.5;
+}
+
+.feature-box:nth-child(2) .feature-img-box {
+  grid-column: 1/2;
+  grid-row: 1/-1;
+}
+
+/*******************/
+/*  CTA SECTION STYILNG */
+/******************/
+
+.section-cta {
+  text-align: center;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.cta-box {
+  transform: translate(0, 50%);
+  background-color: #fff;
+  box-shadow: 0rem 0rem 1rem 0.1rem hsla(208, 11%, 55%, 0.3);
+  padding: 6.4rem 8rem;
+  border-radius: 1.2rem;
+}
+
+.cta-heading {
+  margin-bottom: 4.8rem;
+  letter-spacing: -1px;
+}
+
+/*******************/
+/*  FOOTER SECTION STYILNG */
+/******************/
+
+.footer {
+  background-color: hsl(192, 100%, 9%);
+
+  padding: 20rem 10rem 10rem 10rem;
+  justify-content: space-around;
+}
+
+.footer-container {
+  color: hsl(208, 11%, 55%);
+  font-size: 1.6rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  column-gap: 8rem;
+}
+
+.footer-col {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  align-items: flex-start;
+}
+
+.footer-element {
+  color: #fff;
+  font-style: normal;
+  display: block;
+  border-bottom: 1px solid transparent;
+  transition: 0.3s all;
+}
+
+.link:hover {
+  border-bottom: 1px solid currentColor;
+}
+
+.footer-logo {
+  grid-column: 1/-1;
+  margin-bottom: 4.8rem;
+  filter: brightness(0) invert(1);
+  max-width: 15rem;
+}
+
+.location,
+.copyright {
+  line-height: 1.5;
+}
+
+.contact-element {
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+}
+
+.social-icons {
+  display: flex;
+  gap: 3rem;
+}
+
+.social-icon {
+  font-size: 3rem;
+  color: #fff;
+  transition: 0.3s all;
+}
+
+.social-icon:hover {
+  color: hsl(322, 100%, 66%);
+}
+
+.footer-col:last-child {
+  position: relative;
+}
+
+.copyright {
+  position: absolute;
+  bottom: 0;
+}
